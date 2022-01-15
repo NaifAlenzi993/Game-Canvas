@@ -1,0 +1,57 @@
+#myCa {
+    background-color: black;
+}
+
+#root {
+    display: flex;
+}
+
+
+#info {
+    font-size: 18px; 
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+#infoPos {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+}
+
+#gameInfo {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+}
+
+p {
+    height: 0px;
+}
+
+#btnSetting{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#btnSetting button{
+    width: 150px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    #info {
+        font-size: 13px;
+    }
+  }

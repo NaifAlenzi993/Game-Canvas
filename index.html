@@ -6,6 +6,8 @@
     <title>Document</title>
 
     <script src="script.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
@@ -20,13 +22,35 @@
         }
     </style>
 
-    <canvas id="myCa" width="500" height="500">
+    <div id="root">
 
-    </canvas>
+    <canvas id="myCa" width="500" height="500"></canvas>
 
-    <p id="mouse">mouse pos</p>
-    <p id="keyboard">keyboard down</p>
-    <p id="score">30</p>
+    <div id="info">
+        <div id="infoPos">
+            <p id="mouse">....</p>
+            <p id="rectpos">....</p>
+            <!-- <p id="score">30</p> -->
+            <p id="bulltenemy">...</p>
+        </div>
+    
+        <div id="gameInfo">
+            <p id="state">State : .....</p>
+            <p id="correctshots">correct shots : 0</p>
+        </div>
+
+        <div id="btnSetting">
+            <button id="btnStart">Start Game</button>
+            <button id="btnStop">Stop Game</button>
+        </div>
+ 
+
+    </div>
+    
+   
+
+    </div>
+    
 
 
 
